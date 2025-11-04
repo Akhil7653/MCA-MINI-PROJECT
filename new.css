@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f8ff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+  width: 92%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #b312c9, #4b69ff);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.signup {
+  background: #4a82ff;
+  color: white;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  width: 75%;
+  margin-top: 30px;
+}
+
+.powered {
+  font-size: 14px;
+  color: #5465ff;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.gradient {
+  background: linear-gradient(45deg, #5660ff, #c2268a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* ===== Search Box ===== */
+.search-box {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #e3e8ff;
+  padding: 8px;
+  border-radius: 50px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.send-btn {
+  padding: 14px 22px;
+  border-radius: 40px;
+  background: #4b69ff;
+  color: white;
+  font-size: 18px;
+}
+
+/* ===== Tags ===== */
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.tags span {
+  background: #e7edff;
+  color: #3c4cd1;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tags span:hover {
+  background: #4b69ff;
+  color: #fff;
+}
